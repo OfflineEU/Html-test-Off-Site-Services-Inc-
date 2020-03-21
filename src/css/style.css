@@ -104,7 +104,7 @@ header {
         transform: translateY(-50%);
         width: 2.8rem;
         height: 2.2rem;
-        background-image: url("../img/search-icon.png");
+        background-image: url("../img/icon/search-icon.png");
         background-size: cover; }
 
 .slider-wrapper {
@@ -128,7 +128,7 @@ header {
   border: none;
   opacity: .4;
   left: 2.7rem;
-  background: url("../img/slider-left-icon.png") center no-repeat;
+  background: url("../img/icon/slider-left-icon.png") center no-repeat;
   background-size: cover; }
   .prev:focus {
     outline: none; }
@@ -149,7 +149,7 @@ header {
   border: none;
   opacity: .4;
   right: 2.7rem;
-  background: url("../img/slider-right-icon.png") center no-repeat;
+  background: url("../img/icon/slider-right-icon.png") center no-repeat;
   background-size: cover; }
   .next:focus {
     outline: none; }

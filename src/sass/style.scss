@@ -155,7 +155,7 @@ header {
         transform: translateY(-50%);
         width: 2.8rem;
         height: 2.2rem;
-        background-image: url("../img/search-icon.png");
+        background-image: url("../img/icon/search-icon.png");
         background-size: cover;
       }
     }
@@ -177,14 +177,14 @@ header {
 .prev {
   @include sliderSett;
   left: 2.7rem;
-  background: url("../img/slider-left-icon.png") center no-repeat;
+  background: url("../img/icon/slider-left-icon.png") center no-repeat;
   background-size: cover;
 }
 
 .next {
   @include sliderSett;
   right: 2.7rem;
-  background: url("../img/slider-right-icon.png") center no-repeat;
+  background: url("../img/icon/slider-right-icon.png") center no-repeat;
   background-size: cover;
 }
 
