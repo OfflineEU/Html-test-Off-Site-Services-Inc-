@@ -1,20 +1,20 @@
 @mixin reg {
   font-family: 'Arvo Italic', sans-serif;
 }
+
 @mixin sliderSett {
   position: absolute;
+  top: 50%;
+  border: none;
+  width: 4.8rem;
+  height: 4.8rem;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  top: 50%;
-  z-index: 2;
-  width: 4.8rem;
-  height: 4.8rem;
-  border: none;
   opacity: .4;
-
+  z-index: 2;
   &:focus {
     outline: none;
   }

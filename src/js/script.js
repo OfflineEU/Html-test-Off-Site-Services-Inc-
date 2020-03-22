@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  //slider
   {
     $('.slider-wrapper').slick({
       infinite: true,
@@ -6,7 +7,8 @@ $(document).ready(function () {
       slidesToScroll: 1,
       prevArrow: '<button class="prev prev-review"></button>',
       nextArrow: '<button class="next next-review"></button>',
-      responsive: [
+      //responsive settings
+/*      responsive: [
         {
           breakpoint: 1199,
           settings: {
@@ -16,27 +18,10 @@ $(document).ready(function () {
             nextArrow: '<button class="next next-review"></button>'
           }
         },
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            prevArrow: '<button class="prev prev-review"></button>',
-            nextArrow: '<button class="next next-review"></button>'
-          }
-        },
-        {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            prevArrow: '<button class="prev prev-review"></button>',
-            nextArrow: '<button class="next next-review"></button>'
-          }
-        }
-      ]
+      ]*/
     });
   }
+  //adaptive menu
   {
     const body = document.querySelector('body');
     const hamburger = document.querySelector('.hamburger');
