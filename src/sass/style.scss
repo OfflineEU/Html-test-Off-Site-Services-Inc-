@@ -329,7 +329,7 @@ footer {
           left: 0;
           right: 0;
           bottom: 0;
-          background: #5b78c7;
+          background: rgb(173, 166, 160);
           height: 100vh;
           width: 100%;
           flex-direction: column;
@@ -343,7 +343,7 @@ footer {
           &.open {
 
             clip-path: circle(1200px at 100% 0%);
-            -webkit-clip-path: circle(1200px at 100% 0%);
+            -webkit-clip-path: circle(1500px at 100% 0%);
             pointer-events: all;
 
           }
